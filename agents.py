@@ -21,11 +21,11 @@ class Agents():
 				verbose=True
 			)
 
-	def ops_agent(self):
-			return Agent(
-				role='Operations Manager',
-				goal='Given an operational task, able to use all the tools at your disposal to get the job done, whether that be setting up a meeting or getting a lunch delivered.',
-				tools=[],
-				backstory='A meticulous Operations Manager with an eye for detail, ensuring every task is completed using the appropriate tooling.',
-				verbose=True
-			)
+	# def ops_agent(self):
+	# 		return Agent(
+	# 			role='Operations Manager',
+	# 			goal='Given an operational task, able to use all the tools at your disposal to get the job done, whether that be setting up a meeting or getting a lunch delivered.',
+	# 			tools=[],
+	# 			backstory='A meticulous Operations Manager with an eye for detail, ensuring every task is completed using the appropriate tooling.',
+	# 			verbose=True
+	# 		)

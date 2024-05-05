@@ -20,10 +20,10 @@ class Tasks():
 						agent=agent
 				)
 
-		def communicate_with_stakeholder_task(self, agent, tone):
+		def communicate_with_stakeholder_task(self, agent, tone, people_to_involve):
 				return Task(
 						description=dedent(f"""\
-								Draft a message for the stakeholders in the following tone: {tone}
+								Draft a message for the stakeholders in the following tone: {tone}, and send them a message using the tool at your disposal. Send the drafted message to the relevant people: {people_to_involve} via the tool.
 								"""),
 						expected_output=dedent("""\
 								A detailed, engaging message to be shared with the stakeholder."""),
